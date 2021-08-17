@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.box {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3, .h4, p {
+    margin: 0;
+}
+
+
+
